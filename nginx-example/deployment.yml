@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-example-via-argocd
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: nginx
